@@ -1,10 +1,16 @@
 import requests
 import time
 from collections import Counter
+import argparse
 
 # Configuration
 API_URL = "https://jsonplaceholder.typicode.com/posts"  # Test API URL
-TOTAL_REQUESTS = 100
+# Parse runtime parameter
+parser = argparse.ArgumentParser(description="API Test Script")
+parser.add_argument("--total_requests", type=int, default=100, help="Total number of API requests to send")
+args = parser.parse_args()
+
+TOTAL_REQUESTS = args.total_requests
 
 # Tracking variables
 response_times = []
