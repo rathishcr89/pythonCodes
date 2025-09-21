@@ -9,7 +9,7 @@ class TestArithmeticOperations(unittest.TestCase):
     def test_sum(self):
         self.assertEqual(sum(10, 5), 15)
 
-   def test_sum(self):
+    def test_sum(self):
         self.assertEqual(sum(10, 2), 15)
 
     def test_mul(self):
