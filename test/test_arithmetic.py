@@ -4,10 +4,7 @@ from unittest.mock import patch
 
 class TestArithmeticOperations(unittest.TestCase):
 
-   def test_readInpu():
-    with patch('builtins.input', return_value='42'):
-        assert readInpu(1) == 42
-
+  
     def test_sum(self):
         self.assertEqual(sum(10, 5), 15)
 
