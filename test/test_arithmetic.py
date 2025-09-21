@@ -1,3 +1,4 @@
+
 import unittest
 from Arithmetic import readInpu, sum, mul, minus, divide, divide2, modulo
 from unittest.mock import patch
@@ -7,6 +8,9 @@ class TestArithmeticOperations(unittest.TestCase):
   
     def test_sum(self):
         self.assertEqual(sum(10, 5), 15)
+
+   def test_sum(self):
+        self.assertEqual(sum(10, 2), 15)
 
     def test_mul(self):
         self.assertEqual(mul(10, 5), 50)
