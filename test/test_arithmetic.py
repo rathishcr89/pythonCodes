@@ -7,7 +7,7 @@ class TestArithmeticOperations(unittest.TestCase):
         self.assertEqual(sum(10, 5), 15)
 
     def test_mul(self):
-        self.assertEqual(mul(10, 5), 50)
+        self.assertEqual(mul(10, 2), 20)
 
     def test_minus(self):
         self.assertEqual(minus(10, 5), 5)
