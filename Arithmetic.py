@@ -31,8 +31,10 @@ def readInpu(arg):
 # Main program to read two numbers and perform operations
 if __name__ == "__main__":
     print("This program will read two numbers and perform sum and multiplication on them.")
-a=readInpu(1)
-b=readInpu(2)
+#a=readInpu(1)
+#b=readInpu(2)
+a=5
+b=4
 print(f"Sum of {a} and {b} is {sum(a, b)}")
 print(f"Minus of {a} and {b} is {minus(a, b)}")
 print(f"Multiplication of {a} and {b} is {mul(a, b)}")
