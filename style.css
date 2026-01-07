@@ -59,6 +59,12 @@ button:hover {
     margin: 5px 0;
 }
 .error {
-    color: red;
+    color: #d9534f;
     font-weight: bold;
+    background-color: #f2dede;
+    border: 1px solid #ebccd1;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    text-align: center;
 }
